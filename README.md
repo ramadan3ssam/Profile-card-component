@@ -23,13 +23,13 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![](images/screenshot.jpg)
+![](https://github.com/ramadan3ssam/Profile-card-component/blob/main/images/screenshot.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL here](https://github.com/ramadan3ssam/Profile-card-component)
+- Live Site URL: [live site URL here](https://ramadan3ssam.github.io/Profile-card-component/)
 
 ## My process
 
@@ -85,8 +85,9 @@ I learn how to make best use of flex property as the code below:
 
 ## Author
 
-- Website - [Ramadan Essam](https://www.your-site.com)
+- Codepen - [Ramadan Essam](https://codepen.io/ramadan3ssam)
 - Frontend Mentor - [@ramadan3ssam](https://www.frontendmentor.io/profile/ramadan3ssam)
 - Twitter - [@ramadan3ssam](https://www.twitter.com/ramadan3ssam)
+- Facebook - [Ramadan Essam](https://www.facebook.com/ramadan3ssam)
 
 
