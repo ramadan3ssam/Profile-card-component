@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*
+### Primary
+
+Dark cyan: hsl(185, 75%, 39%)
+Very dark desaturated blue: hsl(229, 23%, 23%)
+Dark grayish blue: hsl(227, 10%, 46%)
+
+### Neutral
+
+Dark gray: hsl(0, 0%, 59%)
+
+*/
+
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+
+section {
+    background-color: hsl(185, 75%, 39%);
+    padding-inline: 15px;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: relative;
+}
+
+section::before {
+    content: '';
+    background-image: url('images/bg-pattern-top.svg');
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -35%;
+    left: -55%;
+}
+
+section::after {
+    content: '';
+    background-image: url('images/bg-pattern-bottom.svg');
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: -45%;
+    right: -45%;
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 17px 31px -6px rgba(0, 0, 0, 0.46);
+    -webkit-box-shadow: 0px 17px 31px -6px rgba(0, 0, 0, 0.46);
+    -moz-box-shadow: 0px 17px 31px -6px rgba(0, 0, 0, 0.46);
+    z-index: 2;
+    overflow: hidden;
+}
+
+.card>img {
+    border-radius: 50%;
+    margin-top: -50px;
+    margin-left: 35%;
+    padding: 5px;
+    background-color: white;
+}
+
+.card .name {
+    margin-top: 10px;
+    text-align: center;
+    color: hsl(227, 10%, 46%);
+}
+
+.card .name h3 {
+    display: inline-block;
+}
+
+.card .name span {
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.card .name address {
+    font-style: normal;
+    margin-top: 10px;
+}
+
+.card .stats {
+    display: flex;
+    border-top: 1px solid hsl(0, 0%, 59%);
+    margin-top: 20px;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card .stats .stat-block {
+    font-weight: 400;
+    font-size: 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 30%;
+    color: hsl(227, 10%, 46%);
+}
+
+.attribution {
+    color: black;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
